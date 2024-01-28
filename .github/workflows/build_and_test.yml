@@ -39,7 +39,7 @@ jobs:
           poetry install --no-interaction --only dev
           poetry run pre-commit install
       - id: changed-files
-        uses: tj-actions/changed-files@v36
+        uses: tj-actions/changed-files@v41
         with:
           files_ignore: |
             requirements.txt
